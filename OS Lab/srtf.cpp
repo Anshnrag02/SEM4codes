@@ -24,7 +24,6 @@ int main(){
             pq.push({process[i][1],process[i][0],process[i][2]});
             i++;
         }
-        // cout<<pq.top()[0]<<pq.top()[1]<<pq.top()[2];
         if(!pq.empty()){
             vector<int>current_process = pq.top();
             pq.pop();
